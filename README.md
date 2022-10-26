@@ -20,10 +20,17 @@ After that, Install Typescript.
 
     npm install -g typescript
     
+Once you install TypeScript and want to run the code, go into the main.ts file. Tpye in your terminal: 
+
+        tsc.main.ts
+        
+The JavaScript compiler does something to compile the TypeScript code into JavaScript and creates a JavaScript file(main.js). Then the compiler runs that JavaScript 
+code.
+
 Now you are ready to run the program(s).
 
 run in your terminal:
 
-        main.ts
+      node main.js
         
-The JavaScript compiler does something to compile the TypeScript code into JavaScript and creates a JavaScript file(main.js). Then the compiler runs that JavaScript code.
+
