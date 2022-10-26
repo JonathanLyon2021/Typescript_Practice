@@ -26,3 +26,11 @@ let myName: string = undefined
 let list1:number[] = [1,2,3];
 let list2: Array<number> = [1,2,3];
 
+//Tuple example
+let person1: [string, number] = ['Jonathan', 37];
+
+//Enum type 
+enum Color {Red, Green, Blue};
+
+let c : Color = Color.Green;
+console.log(c);
