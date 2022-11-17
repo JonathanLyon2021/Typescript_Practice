@@ -15,6 +15,7 @@ In this repository you will find files that I made to implement TypeScript which
 # Prequisites
 - Node.js
 - TypeScript
+- JavaScript VM
 
 # Steps
 ### 1. Setting up the environment and installing TypeScript.###
@@ -22,7 +23,7 @@ In this repository you will find files that I made to implement TypeScript which
 
 Install node @ *nodejs.org*
 I always install the reccommended version.
-Then in your terminal, go to the correct directory and check your node version
+Then in your terminal, go to the correct directory and check your node version by typing this command:
 
         node -v
     
@@ -32,7 +33,7 @@ After that, Install Typescript.
  
 Then create a new file **main.ts**.
 
-Once you install TypeScript and want to run the code; Type in your terminal: 
+Once you install TypeScript and want to run the code, type this command in your terminal: 
 
         tsc.main.ts
         
@@ -41,16 +42,15 @@ Again in the terminal run:
 
         node main.js
         
-Then the compiler runs that JavaScript 
-code.
-This JavaScript file is treated like a script not a module. It is important to know the differences between the two.
-Make sure you `export{}` up top of the TS file in your code.
+Then the compiler runs that JavaScript code.<br>
+This JavaScript file is treated like a script not a module. It is important to know the differences between the two. <br>
+Make sure you `export{}` up top of the TS file in your code. <br>
 
 TypeScript has a watch file option. In the terminal run this command: 
 
         tsc main --watch
 
-NOW the JavaScript compiler is watching the TypeScript file for any changes.
+NOW the JavaScript compiler is watching the TypeScript file for any changes.<br>
 **Open a separate terminal in the same directory** and type the command below, this will run the program:
 
         node main
