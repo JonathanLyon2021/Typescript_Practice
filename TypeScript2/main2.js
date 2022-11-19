@@ -30,9 +30,12 @@ var n = null;
 var u = undefined;
 //These are both Array syntaxs
 var list1 = [1, 2, 3];
-var list2 = [1, 2, 3];
+var list2 = [3, 4, 5];
+var list3 = [6, 7, 8];
 //Tuple
 var person1 = ["Chris", 22];
+var person2 = ["Jonathan", 37];
+var person3 = ["Jason", 40];
 var Color;
 (function (Color) {
     Color[Color["Red"] = 35] = "Red";
