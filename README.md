@@ -1,5 +1,5 @@
 # Typescript_Practice
-This is TypeScript practice that I am implementing in my code now. 
+This is TypeScript practice that I am implementing in my code now. This is not one whole program, this is multiple different programs in different folders. Each folder contains a different program(ie. TypeScript2, TypeScript3, etc.). This has made my understanding of TypeScript much better. Some of these are tutorials from YouTube and me switching the tutorial code around to make it more challenging for me to run it and understand it. Moving forward I feel more confident using TypeScript and statically typed languages, they create less errors & more clarity.
 
 # Overview 
 In this repository you will find files that I made to implement TypeScript which works in connection with JavaScript. The JavaScript compilier sompiles the TypeScript file. We go through all of the subjects in TypeScript. Here are the subjects:
